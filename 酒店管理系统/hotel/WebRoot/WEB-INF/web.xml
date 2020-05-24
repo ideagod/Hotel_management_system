@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+	<display-name></display-name>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>CheckCodeServlet1</servlet-name>
+		<servlet-class>check.CheckCodeServlet1</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>CheckCode</servlet-name>
+		<servlet-class>check.CheckCode</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>LoginServlet</servlet-name>
+		<servlet-class>Servlet.LoginServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>adm_informationServlet</servlet-name>
+		<servlet-class>Servlet.adm_informationServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>exitServlet</servlet-name>
+		<servlet-class>Servlet.exitServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>add_roomServlet</servlet-name>
+		<servlet-class>Servlet.add_roomServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>customer_in_Servlet</servlet-name>
+		<servlet-class>Servlet.customer_in_Servlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>customer_information_Servlet</servlet-name>
+		<servlet-class>Servlet.customer_information_Servlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>select_customer_Servlet</servlet-name>
+		<servlet-class>Servlet.select_customer_Servlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>select_customerServlet</servlet-name>
+		<servlet-class>Servlet.select_customerServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>renew_roomServlet</servlet-name>
+		<servlet-class>Servlet.renew_roomServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>renew1_roomServlet</servlet-name>
+		<servlet-class>Servlet.renew1_roomServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>check_out_roomServlet</servlet-name>
+		<servlet-class>Servlet.check_out_roomServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>check1_out_roomServlet</servlet-name>
+		<servlet-class>Servlet.check1_out_roomServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>select_check_out_customerServlet</servlet-name>
+		<servlet-class>Servlet.select_check_out_customerServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>select_renew_roomServlet</servlet-name>
+		<servlet-class>Servlet.select_renew_roomServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>re_passwordServlet</servlet-name>
+		<servlet-class>Servlet.re_passwordServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>old_customerServlet</servlet-name>
+		<servlet-class>Servlet.old_customerServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>select_old_customerServlet</servlet-name>
+		<servlet-class>Servlet.select_old_customerServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>checkin_servlet</servlet-name>
+		<servlet-class>Servlet.checkin_servlet</servlet-class>
+	</servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<servlet-mapping>
+		<servlet-name>CheckCodeServlet1</servlet-name>
+		<url-pattern>/servlet/CheckCodeServlet1</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>CheckCode</servlet-name>
+		<url-pattern>/servlet/CheckCode</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>LoginServlet</servlet-name>
+		<url-pattern>/servlet/LoginServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>adm_informationServlet</servlet-name>
+		<url-pattern>/adm_informationServlet.do</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>exitServlet</servlet-name>
+		<url-pattern>/exitServlet.do</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>add_roomServlet</servlet-name>
+		<url-pattern>/add_roomServlet.do</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>customer_in_Servlet</servlet-name>
+		<url-pattern>/customer_in_Servlet.do</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>customer_information_Servlet</servlet-name>
+		<url-pattern>/customer_information_Servlet.do</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>select_customer_Servlet</servlet-name>
+		<url-pattern>/select_customer_Servlet.do</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>select_customerServlet</servlet-name>
+		<url-pattern>/select_customerServlet.do</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>renew_roomServlet</servlet-name>
+		<url-pattern>/renew_roomServlet.do</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>renew1_roomServlet</servlet-name>
+		<url-pattern>/renew1_roomServlet.do</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>check_out_roomServlet</servlet-name>
+		<url-pattern>/check_out_roomServlet.do</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>check1_out_roomServlet</servlet-name>
+		<url-pattern>/check1_out_roomServlet.do</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>select_check_out_customerServlet</servlet-name>
+		<url-pattern>/select_check_out_customerServlet.do</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>select_renew_roomServlet</servlet-name>
+		<url-pattern>/select_renew_roomServlet.do</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>re_passwordServlet</servlet-name>
+		<url-pattern>/re_passwordServlet.do</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>old_customerServlet</servlet-name>
+		<url-pattern>/old_customerServlet.do</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>select_old_customerServlet</servlet-name>
+		<url-pattern>/select_old_customerServlet.do</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>checkin_servlet</servlet-name>
+		<url-pattern>/servlet/checkin_servlet</url-pattern>
+	</servlet-mapping>
+
+	<welcome-file-list>
+		<welcome-file>welcome.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>

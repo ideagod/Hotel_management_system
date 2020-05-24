@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+.left{float:left;}
+.right{float:right;}
+.clearfix:after{content:"020";display:block;height:0;clear:both;visibility:hidden;}
+.clearfix{zoom:1;}
+.w1000{width:1600px;margin:0 auto;}
+ .banner_wrap{background: url(/hotel/img/background3.jpg) no-repeat center 0 #f1f1f1;background-size:100%; padding: 480px 0 0 0;}
+.top_wrap .title h2{font:36px/40px Microsoft Yahei;color: #555;}
+.top_wrap .title h2 span{font:18px/40px Microsoft Yahei;color: #555;padding:0 10px;}
+.banner_wrap img:hover{ opacity:0.9;}
+
+.city_inf{background: url(../images/rgbg.png) no-repeat 0 0;width:280px;padding:80px 20px 30px 32px;height:110px;}
+.city_inf p{font:14px/21px Microsoft Yahei; height:104px;overflow:hidden;}
+
+.bigpic{width:660px;height: 220px;position: relative;}
+
+.bigpic h5{position: absolute;color: #fff;width:620px;height:60px;line-height: 60px;padding:0 20px;bottom:0;left:0; background:#f1f1f1;filter:alpha(opacity=50);background: rgba(0,0,0,.5);}
+.bigpic h5 a{color: #fff;padding:0 10px;text-decoration: none;}
+.midleft {
+    position: absolute;
+    top: 250PX;
+    left: 80px;
+    font-size: 60px;
+    color: #ffffff;
+}
+
+.city_list{width:100%;overflow: hidden;padding:20px 0;}
+.city_list ul{width:1600px;}
+.city_list ul li{width:512px;float: left;background: #fff;margin:0 20px 20px 0;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+
+.city_list ul li h6{height: 40px;line-height: 40px;padding:0 10px;overflow: hidden;}
+.city_list ul li h6 a{font:18px/40px Microsoft Yahei;color: #555;text-decoration: none;width:210px;float: left;overflow: hidden;height: 40px;}
+.city_list ul li h6 a:hover{ color:#F66;}
+
+
+.city_list ul li h6 span{display: none; font:12px;color:#555;}
+.city_list ul li h6 span em{color:#ff5555;font:14px/40px Microsoft Yahei;position: relative;top:-4px;left:0;}
+.city_list ul li h6 span b{color:#ff5555;font:18px/40px Microsoft Yahei;padding:0 4px;}
+
+
+.city_list ul li .city_list_inf{border-top: 1px dashed #ccc;margin:0 10px;padding:5px 0;background: url(../images/dd1.jpg) no-repeat 0 4px;}
+
+.city_list ul li .city_list_inf p{padding:5px;background: url(../images/dd2.jpg) no-repeat right bottom; height:33px; overflow:hidden;}
+
+
+.more_hotel{margin:20px auto;text-align: center;height:30px;line-height: 30px;background: url(../images/line_bg.jpg) repeat-x 0 8px;}
+
+.more_hotel a{text-align: center;background: #f6f1e5;padding:0 10px;text-decoration: none;font: 14px/30px Microsoft Yahei;}

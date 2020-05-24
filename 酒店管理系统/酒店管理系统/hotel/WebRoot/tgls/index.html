@@ -1,0 +1,145 @@
+
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1">
+		<!-- Google Chrome Frame也可以让IE用上Chrome的引擎: -->
+		<meta name="renderer" content="webkit">
+		<!--国产浏览器高速模式-->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="Mr. Yao" />
+		<!-- 作者 -->
+		<meta name="revised" content="Yao.v1, 2018/02/27" />
+		<!-- 定义页面的最新版本 -->
+		<meta name="description" content="网站简介" />
+		<!-- 网站简介 -->
+		<meta name="keywords" content="搜索关键字，以半角英文逗号隔开" />
+		<title>酒店管理</title>
+
+		<!-- 公共样式 开始 -->
+		<link rel="stylesheet" type="text/css" href="../css/base.css">
+		<link rel="stylesheet" type="text/css" href="../css/iconfont.css">
+		<script type="text/javascript" src="../framework/jquery-1.11.3.min.js" ></script>
+		<link rel="stylesheet" type="text/css" href="../layui/css/layui.css">
+		<script type="text/javascript" src="../layui/layui.js" ></script>
+		<!-- 滚动条插件 -->
+		<link rel="stylesheet" type="text/css" href="../css/jquery.mCustomScrollbar.css">
+		<script src="../framework/jquery-ui-1.10.4.min.js"></script>
+		<script src="../framework/jquery.mousewheel.min.js"></script>
+		<script src="../framework/jquery.mCustomScrollbar.min.js"></script>
+		<script src="../framework/cframe.js"></script><!-- 仅供所有子页面使用 -->
+		<!-- 公共样式 结束 -->
+		
+		<!--报表-->
+		<script type="text/javascript" src="../framework/echarts.min.js" ></script>
+		<link rel="stylesheet" type="text/css" href="../css/backHome.css">
+		<script type="text/javascript" src="../js/backHome.js" ></script>
+	</head>
+
+	<body>
+		<div class="row">
+			<div class="col-md-2">
+				<div class="module">
+					<div class="title"><span></span><font>今日数据统计</font></div>
+					<div class="content">
+						<div class="today_data">
+							<ul>
+								<li class="new_bt">
+									<div class="state"><i class="iconfont icon-xiangxiajiantoucuxiao"></i></div>
+									<div class="data1">
+										<p>今日订单数量</p>
+										<h1>2</h1>
+									</div>
+									<div class="data2">
+										<p>与昨日数量比</p>
+										<h1>5%</h1>
+									</div>
+								</li>
+								<li>
+									<div class="state"><i class="iconfont icon-xiangshangjiantoucuxiao"></i></div>
+									<div class="data1">
+										<p>今日订单总金额</p>
+										<h1>2</h1>
+									</div>
+									<div class="data2">
+										<p>与昨日金额比</p>
+										<h1>5%</h1>
+									</div>
+								</li>
+								<li>
+									<div class="state">- - </div>
+									<div class="data1">
+										<p>今日下单商户数</p>
+										<h1>2</h1>
+									</div>
+									<div class="data2">
+										<p>与昨日数量相比</p>
+										<h1>5%</h1>
+									</div>
+								</li>
+								<li>
+									<div class="state"><i class="iconfont icon-xiangshangjiantoucuxiao"></i></div>
+									<div class="data1">
+										<p>平台拥有总商户数</p>
+										<h1>2564</h1>
+									</div>
+									<div class="data2">
+										<p>昨日总商户数</p>
+										<h1>2500</h1>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md_5">
+				<div class="module">
+					<div class="title"><span></span><font>酒店外景</font></div>
+				<div class="content" >
+						<img  class="img" src="/hotel/img/hotel.jpg"  width="684" height="310">
+				</div>
+				</div>
+			</div>
+			<div class="col-md-2 no_mr">
+				<div class="module">
+					<div class="title"><span></span><font>设施服务</font></div>
+					<div class="content">
+						<div class="service_data">
+							<ul>
+								<li><span>停车场</span></li>
+								<li><span>公用区wifi</span></li>
+								<li><span>行李寄存</span></li>
+								<li><span>叫醒服务</span></li>
+								<li><span>24小时前台</span></li>
+								<li><span>外币兑换服务</span></li>
+								<li><span>接机服务</span></li>
+								<li><span>洗衣服务</span></li>								
+								<li><span>信用卡结算服务</span></li>
+								<li><span>邮政服务</span></li>
+								<li><span>礼宾服务</span></li>
+								<li><span>送餐服务</span></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-5">
+				<div class="module">
+					<div class="title"><span></span><font>订单总量统计</font></div>
+					<div class="content">
+						<div id="echartsOrderNum" style="width: 100%;height:325px;"></div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</body>
+	<script type="text/javascript" src="../framework/china.js"></script>
+	<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=wWdTUDMYlX7BfX9bXQwuBET8g6FeHoT4"></script>
+
+</html>

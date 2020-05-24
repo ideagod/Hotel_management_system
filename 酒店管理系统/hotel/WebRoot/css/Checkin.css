@@ -1,0 +1,60 @@
+@CHARSET "UTF-8";
+
+.container {
+	position: relative;
+}
+
+.topleft {
+	position: absolute;
+	top: 8px;
+	left: 16px;
+	font-size: 18px;
+}
+
+.centeeer {
+	width: 35%;
+	margin: 2em auto;
+	padding: 10px;
+	background: rgba(2, 29, 20, 0.6);
+	color: #fff
+}
+
+.centeer {
+	margin: auto;
+	width: 35%;
+	padding: 10px;
+	background: rgba(2, 29, 20, 0.6);
+	color: #fff
+}
+
+.center {
+	width: 600px;
+	position: absolute;
+	left: 50%;
+	margin-left: -300px;
+	background: rgba(2, 29, 20, 0.6);
+	color: #fff;
+	padding: 20px;
+}
+
+body {
+	margin: 0;
+	width: 1682px;
+	height: 946px;
+	background-color: #b0c4de;
+	background-position: top;
+	background-image: url(/hotel/img/background2.jpg);
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	/*filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')"; */
+}
+
+.bacskimage {
+	background-image: url(/HotelS/img/background.png);
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: 1920% 1080%;
+	min-width: 100%;
+	min-height: 100%;
+}

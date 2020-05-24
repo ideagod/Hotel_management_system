@@ -1,0 +1,142 @@
+@charset "utf-8";
+/* 公共样式 更多精品模板请访问：http://www.bootstrapmb.com*/
+body {font-size: 14px; font-family: "Microsoft YaHei","微软雅黑";	color: #333333;-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;-webkit-tap-highlight-color:rgba(0,0,0,0);}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{margin:0;padding:0}
+input,select,textarea{font-size:100%}
+table{border-collapse:collapse;border-spacing:0}
+fieldset,img{border:0}
+abbr,acronym{border:0;font-variant:normal}
+del{text-decoration:line-through}
+address,caption,cite,code,dfn,em,th,var{font-style:normal;font-weight:normal}
+ol,ul{list-style:none}
+caption,th{text-align:left}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}
+q:before,q:after{content:''}
+button{outline:0;border:none;}
+a:hover{text-decoration:none}
+ins,a{text-decoration:none}
+textarea {resize: none;}
+iframe,img {border:0;}
+ul,ol {list-style:none;}
+a{color: #333333;text-decoration: none;}
+a:link {color: #333333;text-decoration: none;}		/* 未访问的链接 */
+a:visited {text-decoration: none;}	/* 已访问的链接 */
+a:hover {color: #4189c8;text-decoration: none;}	/* 鼠标移动到链接上 */
+a:active {color: #4189c8;text-decoration: none;}	/* 选定的链接 */
+input[type="text"],[type="password"],[type="button"], input[type="submit"], input[type="reset"] {
+	-webkit-appearance: none;
+	outline: none;
+}
+select{
+	/*-webkit-appearance: none;去掉select的下箭头*/
+	outline: none;
+}
+textarea {  -webkit-appearance: none;}
+/***全局公共样式 - 开始***/
+.no_mr{
+	margin-right: 0px !important;
+}
+.no_mb{
+	margin-bottom: 0px !important;
+}
+.no_bb{
+	border-bottom: 0px !important;
+}
+iframe{
+	display: block;
+    border: 0px;
+}
+img{
+	display: block;
+}
+.form_check_box{
+	line-height: 40px;
+	position: absolute;
+	top: 0;
+	right: 10px;
+	font-size: 12px;
+	color: #dd0322;
+}
+.cBody{
+	padding: 10px;
+	display: block;
+}
+/***全局公共样式 - 结束***/
+
+/**mainIframe**/
+#mainIframe{
+	width: 100%;
+	overflow: hidden;
+}
+
+#customers
+{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	position: absolute;
+	top: 110px;
+right:300px;
+
+
+width:780px; height:300px;
+	border-collapse:collapse;
+}
+#customers td, #customers th 
+{
+	font-size:1.1em;
+	border:1px solid #ffffff;
+	padding:3px 7px 2px 7px;
+}
+#customers th 
+{
+	font-size:1.1em;
+	text-align:center;
+	padding-top:5px;
+	padding-bottom:4px;
+	background-color:#696969;
+	color:#ffffff;
+}
+#customers tr.alt td 
+{
+	color:#000000;
+	background-color:#EAF2D3;
+}
+.a {
+position: absolute;
+top: 10px
+right: 200px
+width: 200px;
+}
+
+.reg_div2 {
+	text-align: center;
+	font-size: 13px;
+	position: absolute;
+	top: 20px;
+	right: -150px;
+}
+.reg_div1 {
+	margin-top: 22px;
+	padding-bottom: 22px;
+	font: 22px 微软雅黑;
+	text-align: center;
+	color: #696969;
+	border-bottom: 2px solid #EAF2D3;
+}
+.reg_div1_infor {
+	margin-top: 20px;
+	padding-bottom: 20px;
+	font: 20px 微软雅黑;
+	text-align: center;
+	color: 	#000000;
+
+}
+
+.reg_td1 {
+	width: 250px;
+	height: 30px;
+}
+.reg_table1 {
+	margin: auto;
+	border-spacing: 0px 25px;
+}
+

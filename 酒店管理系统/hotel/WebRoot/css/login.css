@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+#login_div1 {
+	/*	background-image:url("/hotel/img/beijing.jpg");*/
+	height: 388px;
+	width: 960px;
+	margin: auto;
+	margin-top: 20px;
+	position: relative;
+}
+
+#login_div2 {
+	/*	background-color: #FFFFFF;*/
+	width: 445px;
+	height: 300px;
+	left: 470px;
+	top: 70px;
+	color: #9C9C9C;
+	font-size: 12px;
+	position: absolute;
+}
+
+.l_input1 {
+	height: 25px;
+	width: 230px;
+}
+
+.l_input1:hover {
+	border: 1px solid #FDA546;
+}
+
+#l_a1 {
+	color: blue;
+}
+
+#login_table {
+	margin: auto;
+	border-spacing: 5px 17px;
+}
+
+#l_td1 {
+	text-align: right;
+}
+
+.l_td2 {
+	text-align: left;
+}
+
+.l_td3 {
+	color: black;
+}
+
+#l_sub {
+	width: 80px;
+	height: 30px;
+	background-color: #00CED1;
+	color: #FFFFFF;
+	font-size: 14px;
+	border: 1px solid #EF7429;
+}
+
+#body {
+	background: url("/hotel/img/beijing.jpg");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+	/*background-position-x:50%;*/
+}

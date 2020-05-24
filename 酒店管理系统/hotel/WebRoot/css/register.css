@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+.reg_div1_infor {
+	margin-top: 20px;
+	padding-bottom: 20px;
+	font: 20px 微软雅黑;
+	text-align: center;
+	color: #000000;
+}
+
+.reg_div1 {
+	margin-top: 20px;
+	padding-bottom: 20px;
+	font: 20px 微软雅黑;
+	text-align: center;
+	border-bottom: 2px solid #EAF2D3;
+	color: #FF0000;
+}
+
+.reg_div2 {
+	text-align: center;
+	font-size: 13px;
+}
+
+.reg_table1 {
+	margin: auto;
+	border-spacing: 0px 25px;
+	color: FFD700;
+}
+
+.reg_td1 {
+	width: 250px;
+	height: 30px;
+}
+
+.reg_td1:hover {
+	border: solid #FFCC66 1px;
+}
+
+.reg_div3 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+textarea {
+	color: #666666;
+}
+
+.reg_tr {
+	margin: auto;
+	height: 50px;
+	line-height: 50px;
+}
+
+#td_1 {
+	position: relative;
+	height: 30px;
+}
+
+#checkCode {
+	position: absolute;
+	top: 10px;
+	width: 100px;
+	left: 0px;
+	height: 27px;
+}
+
+.reg_img {
+	position: absolute;
+	left: 120px;
+	top: 10px;
+}
+
+#customers {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+}
+
+#customers td, #customers th {
+	font-size: 1em;
+	border: 1px solid #ffffff;
+	padding: 3px 7px 2px 7px;
+}
+
+#customers th {
+	font-size: 1.1em;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 4px;
+	background-color: #696969;
+	color: #ffffff;
+}
+
+#customers tr.alt td {
+	color: #000000;
+	background-color: #EAF2D3;
+}
+
+.a {
+	position: absolute;
+	top: 10px right: 200px width: 200px;
+}
+
+#customers1 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	position: absolute;
+	top: 250px;
+	right: 300px;
+	width: 800px;
+	height: 300px;
+	border-collapse: collapse;
+}
+
+#customers1 td, #customers1 th {
+	font-size: 1em;
+	border: 1px solid #ffffff;
+	padding: 3px 7px 2px 7px;
+}
+
+#customers1 th {
+	font-size: 1.1em;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 4px;
+	background-color: #696969;
+	color: #ffffff;
+}
+
+#customers1 tr.alt td {
+	color: #000000;
+	background-color: #EAF2D3;
+}
+
+.a {
+	position: absolute;
+	top: 10px right: 200px width: 200px;
+}
+
+#customers2 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	position: absolute;
+	top: 100px;
+	right: 330px;
+	width: 800px;
+	height: 300px;
+	border-collapse: collapse;
+}
